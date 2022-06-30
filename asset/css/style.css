@@ -1,0 +1,148 @@
+
+/* Mobile View */
+@media all and (max-width: 375px) {
+  header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo-placeholder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 12px;
+  }
+
+  #logo {
+    width: 76px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+    border-radius: 8px;
+  }
+
+  #hamburger {
+    width: 24px;
+    height: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #header-section {
+    position: absolute;
+    width: 375px;
+    height: 587.15px;
+    left: 0;
+    right: 0;
+    top: 104px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/background.png");
+    background-size: 90% 100%;
+    background-repeat: no-repeat;
+    border-radius: 0 0 0 100px;
+  }
+
+  #header-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 24px;
+    position: absolute;
+    width: 375px;
+    height: 604px;
+    left: calc(50% - 375px / 2);
+  }
+
+  #profile-header h1 {
+    width: 327px;
+    height: 150px;
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    color: #172b4d;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  #profile-description p {
+    position: absolute;
+    top: 276px;
+    width: 327px;
+    height: 146px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  #connect h3 {
+    position: absolute;
+    top: 434px;
+    width: 100%;
+    height: 24px;
+    padding-top: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #7f8cff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .social-media-icons {
+    position: absolute;
+    top: 475px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    left: 0;
+  }
+}
