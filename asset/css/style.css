@@ -162,6 +162,24 @@ body {
     padding-left: 12px;
   }
 
+  .action-btn > span {
+    width: 120;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396df2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   #profile-header > span {
     width: 327px;
     height: 150;
@@ -499,24 +517,6 @@ body {
     text-decoration: none;
   }
 
-  .action-btn > span {
-    width: 120;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
   #snapshot2 {
     width: 295px;
     height: 220;
@@ -558,7 +558,7 @@ body {
     background: #fff;
     border-radius: 0 100 0 0;
   }
-  
+
   #about-myself {
     display: flex;
     flex-direction: column;
@@ -681,7 +681,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7F8CFF;
+    color: #7f8cff;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -698,9 +698,8 @@ body {
     padding: 12px;
     gap: 12px;
     width: 162px;
-    height: 48px;    
+    height: 48px;  
     border: 1px solid #6070ff;
-
     border-radius: 8px;
     flex: none;
     order: 3;
@@ -772,7 +771,7 @@ body {
     display: flex;
     align-items: center;
     padding-left: 12px;
-    color: #000000;
+    color: #000;
   }
 
   .skill-toggle-btn {
