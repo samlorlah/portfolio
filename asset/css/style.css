@@ -561,7 +561,7 @@ body {
     background: #fff;
     border-radius: 0 100px 0 0;
   }
-  
+
   #about-myself {
     display: flex;
     flex-direction: column;
@@ -862,7 +862,7 @@ body {
     align-items: center;
     color: #253858;
   }
-  
+
   .skill-separator {
     position: relative;
     top: 50px;
