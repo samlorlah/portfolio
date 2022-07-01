@@ -100,7 +100,7 @@ body {
     left: calc(50% - 375px / 2);
   }
 
-  .project-title>span {
+  .project-title > span {
     width: 295px;
     height: 36px;
     font-family: 'Poppins', sans-serif;
@@ -112,6 +112,54 @@ body {
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  .tag1 > span {
+    width: 29px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
+  }
+
+  .tag2 > span {
+    width: 21px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
+  }
+
+  .tag3 > span {
+    width: 65px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
   }
 
   #profile-header > span {
@@ -147,7 +195,7 @@ body {
     flex-grow: 0;
   }
 
-  #connect{
+  #connect {
     position: absolute;
     top: 434px;
     width: 100%;
@@ -282,6 +330,7 @@ body {
     flex-grow: 0;
     text-transform: uppercase;
   }
+
   .counter1 {
     width: 8px;
     height: 8px;
@@ -301,6 +350,7 @@ body {
     flex-grow: 0;
     border-radius: 100%;
   }
+
   .role {
     display: flex;
     flex-direction: row;
@@ -361,7 +411,6 @@ body {
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-    /* padding-top: 24px; */
     color: #344563;
     flex: none;
     order: 1;
@@ -382,6 +431,7 @@ body {
     flex-grow: 0;
     list-style: none;
   }
+
   .tags > .tag1 {
     display: flex;
     flex-direction: row;
@@ -396,21 +446,6 @@ body {
     flex-grow: 0;
   }
 
-.tag1 > span {
-    width: 29px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
-  }
   .tags > .tag2 {
     display: flex;
     flex-direction: row;
@@ -425,21 +460,6 @@ body {
     flex-grow: 0;
   }
 
-  .tag2 > span {
-    width: 21px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
-  }
   .tags > .tag3 {
     display: flex;
     flex-direction: row;
@@ -452,22 +472,6 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
-  }
-
-  .tag3 > span {
-    width: 65px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
   }
 
   .action {
@@ -507,7 +511,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: #396df2;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -534,13 +538,13 @@ body {
   }
 
   #snapshot4 {
-      width: 295px;
-      height: 220;
-      background: url(../images/snapshot4.png);
-      border-radius: 8px;
-      flex: none;
-      order: 0;
-      flex-grow: 0;
+    width: 295px;
+    height: 220;
+    background: url(../images/snapshot4.png);
+    border-radius: 8px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
   }
 
   /* About Myself */
@@ -696,6 +700,7 @@ body {
     width: 162px;
     height: 48px;    
     border: 1px solid #6070ff;
+
     border-radius: 8px;
     flex: none;
     order: 3;
@@ -715,7 +720,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396DF2;
+    color: #396df2;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -847,6 +852,7 @@ body {
     align-items: center;
     color: #253858;
   }
+
   .skill-separator {
     position: relative;
     top: 50;
