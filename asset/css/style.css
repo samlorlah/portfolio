@@ -7,12 +7,11 @@ body {
   header {
     position: absolute;
     width: 375px;
-    height: 110;
+    height: 110px;
     left: 0;
     top: 0;
     background-color: #fff;
   }
-
   .header-container {
     position: absolute;
     left: 0;
@@ -28,21 +27,21 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 10 12px;
+    padding: 10px 12px;
     position: absolute;
-    width: 100;
-    height: 40;
+    width: 100px;
+    height: 40px;
     left: 12px;
   }
 
   #logo {
     width: 76px;
-    height: 20;
+    height: 20px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 20;
+    line-height: 20px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -59,8 +58,8 @@ body {
     align-items: flex-start;
     padding: 8px;
     position: absolute;
-    width: 40;
-    height: 40;
+    width: 40px;
+    height: 40px;
     right: 24px;
     border-radius: 8px;
   }
@@ -86,7 +85,7 @@ body {
     background-color: #fff;
     background-size: 90% 100%;
     background-repeat: no-repeat;
-    border-radius: 0 0 0 100;
+    border-radius: 0 0 0 100px;
   }
 
   #header-section .container {
@@ -100,94 +99,14 @@ body {
     left: calc(50% - 375px / 2);
   }
 
-  .project-title > span {
-    width: 295px;
-    height: 36px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 44px;
-    color: #172b4d;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  .tag1 > span {
-    width: 29px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
-  }
-
-  .tag2 > span {
-    width: 21px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
-  }
-
-  .tag3 > span {
-    width: 65px;
-    height: 16px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-left: 12px;
-  }
-
-  .action-btn > span {
-    width: 120;
-    height: 24px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #396df2;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
-
-  #profile-header > span {
+  #profile-header > h1 {
     width: 327px;
-    height: 150;
-    padding-top: 90;
+    height: 150px;
+    padding-top: 90px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40;
+    font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
@@ -197,7 +116,7 @@ body {
     flex-grow: 0;
   }
 
-  #profile-description > span {
+  #profile-description > p {
     position: absolute;
     top: 276px;
     width: 327px;
@@ -213,12 +132,13 @@ body {
     flex-grow: 0;
   }
 
-  #connect {
+  #connect{
     position: absolute;
     top: 434px;
     width: 100%;
     height: 24px;
-    padding-top: 12px;
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -244,11 +164,10 @@ body {
 
   .works {
     display: grid;
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: auto;
     align-items: center;
-    padding: 114px 0;
-    gap: 88px;
+    padding: 20px 24px;
+    grid-row-gap: 20px;
     position: absolute;
     width: 375px;
     height: 2788px;
@@ -265,8 +184,8 @@ body {
     gap: 12px;
     width: 327px;
     height: 552px;
-    background: #fff;
-    border: 1px solid #dfe1e6;
+    background: #FFFFFF;
+    border: 1px solid #DFE1E6;
     border-radius: 16px;
     flex: none;
     order: 0;
@@ -275,7 +194,7 @@ body {
 
   #snapshot1 {
     width: 295px;
-    height: 220;
+    height: 220px;
     background: url(../images/snapshot1.png);
     border-radius: 8px;
     flex: none;
@@ -303,7 +222,23 @@ body {
     padding: 0;
     gap: 12px;
     width: 295px;
-    height: 80;
+    height: 80px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  .project-title > h2 {
+    position: relative;
+    margin: 0;
+    width: 295px;
+    height: 36px;
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172B4D;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -348,11 +283,10 @@ body {
     flex-grow: 0;
     text-transform: uppercase;
   }
-
   .counter1 {
     width: 8px;
     height: 8px;
-    background: #c1c7d0;
+    background: #C1C7D0;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -362,13 +296,12 @@ body {
   .counter2 {
     width: 8px;
     height: 8px;
-    background: #c1c7d0;
+    background: #C1C7D0;
     flex: none;
     order: 3;
     flex-grow: 0;
     border-radius: 100%;
   }
-
   .role {
     display: flex;
     flex-direction: row;
@@ -389,7 +322,7 @@ body {
     font-weight: 600;
     font-size: 12.5px;
     line-height: 16px;
-    color: #7a869a;
+    color: #7A869A;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -415,7 +348,7 @@ body {
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-    color: #7a869a;
+    color: #7A869A;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -424,6 +357,7 @@ body {
   .work-description {
     width: 295px;
     height: 76px;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -449,7 +383,6 @@ body {
     flex-grow: 0;
     list-style: none;
   }
-
   .tags > .tag1 {
     display: flex;
     flex-direction: row;
@@ -464,6 +397,21 @@ body {
     flex-grow: 0;
   }
 
+.tag1 > span {
+    width: 29px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
+  }
   .tags > .tag2 {
     display: flex;
     flex-direction: row;
@@ -478,6 +426,21 @@ body {
     flex-grow: 0;
   }
 
+  .tag2 > span {
+    width: 21px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
+  }
   .tags > .tag3 {
     display: flex;
     flex-direction: row;
@@ -490,6 +453,22 @@ body {
     flex: none;
     order: 2;
     flex-grow: 0;
+  }
+
+  .tag3 > span {
+    width: 65px;
+    height: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding-left: 12px;
   }
 
   .action {
@@ -506,7 +485,7 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 12px;
-    gap: 10;
+    gap: 10px;
     position: relative;
     width: 124px;
     height: 48px;
@@ -517,9 +496,27 @@ body {
     text-decoration: none;
   }
 
+  .action-btn > span {
+    width: 120px;
+    height: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #396DF2;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
   #snapshot2 {
     width: 295px;
-    height: 220;
+    height: 220px;
     background: url(../images/snapshot2.png);
     border-radius: 8px;
     flex: none;
@@ -529,7 +526,7 @@ body {
 
   #snapshot3 {
     width: 295px;
-    height: 220;
+    height: 220px;
     background: url(../images/snapshot3.png);
     border-radius: 8px;
     flex: none;
@@ -539,7 +536,7 @@ body {
 
   #snapshot4 {
     width: 295px;
-    height: 220;
+    height: 220px;
     background: url(../images/snapshot4.png);
     border-radius: 8px;
     flex: none;
@@ -553,12 +550,12 @@ body {
     position: absolute;
     width: 375px;
     height: 1263px;
-    top: 3400;
+    top: 3506px;
     left: 0;
-    background: #fff;
-    border-radius: 0 100 0 0;
+    background: #FFFFFF;
+    border-radius: 0 100px 0 0;
   }
-
+  
   #about-myself {
     display: flex;
     flex-direction: column;
@@ -587,14 +584,16 @@ body {
   #self-top > #self-header {
     width: 327px;
     height: 101px;
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40;
+    font-size: 40px;
     line-height: 52px;
     display: flex;
     align-items: center;
-    color: #172b4d;
+    color: #172B4D;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -603,6 +602,8 @@ body {
   #self-top > #self-description {
     width: 327px;
     height: 144px;
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -619,8 +620,8 @@ body {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    width: 200;
-    height: 40;
+    width: 200px;
+    height: 40px;
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -632,8 +633,8 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 5px;
-    width: 40;
-    height: 40;
+    width: 40px;
+    height: 40px;
     border-radius: 8px;
     flex: none;
     order: 0;
@@ -674,14 +675,14 @@ body {
   }
 
   #self-connect {
-    width: 120;
+    width: 120px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #7F8CFF;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -690,7 +691,7 @@ body {
 
   #get-resume {
     position: relative;
-    top: 50;
+    top: 50px;
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -698,7 +699,7 @@ body {
     padding: 12px;
     gap: 12px;
     width: 162px;
-    height: 48px;
+    height: 48px;    
     border: 1px solid #6070ff;
     border-radius: 8px;
     flex: none;
@@ -708,7 +709,7 @@ body {
   }
 
   #get-resume > span {
-    width: 150;
+    width: 150px;
     height: 24px;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -719,7 +720,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #396df2;
+    color: #396DF2;
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -763,15 +764,17 @@ body {
     height: 24px;
     left: 12px;
     right: 78px;
+    padding: 0;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
     line-height: 24px;
     display: flex;
     align-items: center;
     padding-left: 12px;
-    color: #000;
+    color: #000000;
   }
 
   .skill-toggle-btn {
@@ -780,8 +783,8 @@ body {
     align-items: flex-start;
     padding: 8px;
     position: absolute;
-    width: 40;
-    height: 40;
+    width: 40px;
+    height: 40px;
     right: 26px;
     border-radius: 8px;
   }
@@ -813,7 +816,7 @@ body {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 20;
+    left: 20px;
     top: calc(50% - 48px / 2 - 0.36px);
     background: url(../images/javascript.svg);
   }
@@ -822,7 +825,7 @@ body {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 20;
+    left: 20px;
     top: calc(50% - 48px / 2 - 0.36px);
     background: url(../images/html.svg);
   }
@@ -831,7 +834,7 @@ body {
     position: absolute;
     width: 48px;
     height: 48px;
-    left: 20;
+    left: 20px;
     top: calc(50% - 48px / 2 - 0.36px);
     background: url(../images/css.svg);
   }
@@ -841,20 +844,21 @@ body {
     height: 24px;
     left: 76px;
     right: 12px;
+    padding: 0 13px;
+    margin: 0;
     top: calc(50% - 24px / 2 - 0.36px);
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
-    line-height: 20;
+    line-height: 20px;
     display: flex;
     align-items: center;
     color: #253858;
   }
-
   .skill-separator {
     position: relative;
-    top: 50;
+    top: 50px;
     height: 1px;
     left: 0;
     right: 0;
@@ -865,6 +869,6 @@ body {
   .btn:hover {
     background-color: #6070ff;
     border-color: #6070ff;
-    color: #fff;
+    color: #ffffff;
   }
 }
