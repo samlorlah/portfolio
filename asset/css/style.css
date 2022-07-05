@@ -882,4 +882,19 @@ body {
   }
 
   /* CONTACT ME` */
+  
+  #contact-me {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 375px;
+    height: 779px;
+    left: 0;
+    top: 4600px;
+    background: #6070ff;
+    border-radius: 100px 0 0 0;
+    background-image: url('../images/contact-form-shapes-mobile-bg.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+  }
 }
