@@ -897,4 +897,66 @@ body {
     background-repeat: no-repeat;
     background-position: right;
   }
+
+  #contact-me-header {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+  }
+
+  #contact-me-description {
+    width: 327px;
+    height: 90px;
+    padding-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin: 0;
+  }
+
+  #contact-me-form {
+    display: inherit;
+    flex-direction: column;
+    width: 327px;
+    height: 102px;
+    margin-left: 24px;
+    margin: 80px 0;
+    width: 100%;
+  }
+
+  .form-field {
+    margin: 10px 24px;
+  }
+
+  .form-field input,
+  .form-field textarea {
+    width: 327px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+  }
+
+  .form-field textarea {
+    height: 170px;
+  }
+
+  .form-field input::placeholder,
+  .form-field textarea::placeholder {
+    color: #b3bac5;
+    padding: 15px 15px;
+    font-size: 15px;
+  }
+
+
 }
