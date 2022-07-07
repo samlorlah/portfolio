@@ -42,10 +42,10 @@
                     experience! If you like what you see and have a project you need coded, don't hestiate to contact me.
                 </p>
             </div>
-            <div id="connect">
+            <div class="connect" id="connect">
                 <p>Let's Connect</p>
             </div>
-            <ul class="social-media-icons">
+            <ul class="social-media-icons" id="sm-icons-header">
                 <li><a href="#"><img src="./asset/images/Vectortwitter.svg" alt="twitter"></a></li>
                 <li><a href="#"><img src="./asset/images/linkedin.svg" alt="linkedin"></a></li>
                 <li><a href="#"><img src="./asset/images/Vectorm-icon.svg" alt="M"></a></li>
@@ -229,9 +229,9 @@
                 </p>
                 <div class="social-media">
                     <div id="self-connect-container">
-                        <h3 id="self-connect">Let's Connect</h3>
+                        <h3 class="connect">Let's Connect</h3>
                     </div>
-                    <ul class="social-media-icons-self">
+                    <ul class="social-media-icons" id="sm-icons-self">
                         <li><a href="#"><img src="./asset/images/Vectorgithub.svg" alt="github"></a></li>
                         <li><a href="#"><img src="./asset/images/linkedin.svg" alt="linkedin"></a></li>
                         <li><a href="#"><img src="./asset/images/Vectordribble.svg" alt="dribble"></a></li>
@@ -243,12 +243,12 @@
             </div>
             <ul class="skillset">
                 <li id="open-skill">
-                    <div class="skill-header-container">
+                    <li class="skill-header-container">
                         <h2 class="skill-name">Languages</h2>
                         <div class="skill-toggle-btn">
                             <img src="./asset/images/angle-down.svg" alt="chevron-down">
                         </div>
-                    </div>
+                    </li>
                     <div class="open-skil-details">
                         <div class="skill-details-items">
                             <div id="skill-item-thumbnail1"></div>
@@ -283,8 +283,9 @@
     </section>
     <section id="contact-me">
         <h2 id="contact-me-header">Contact me</h2>
-        <p id="contact-me-description">If you have an application you are interested in developing, a feature that you need built or a project that needs
-        coding. I’d love to help with it</p>
+        <p id="contact-me-description">If you have an application you are interested in developing, a feature that you need
+            built or a project that needs
+            coding. I’d love to help with it</p>
         <form id="contact-me-form" action="https://formspree.io/f/mpzbgqyj" method="post">
             <div class="form-field">
                 <input required name="fullname" maxlength="30" type="text" placeholder="Enter your full name">
@@ -293,9 +294,10 @@
                 <input required name="email" type="email" placeholder="Enter your email address">
             </div>
             <div class="form-field">
-                <textarea required name="message" maxlength="500" cols="30" rows="10" placeholder="Write your message here"></textarea>
+                <textarea required name="message" maxlength="500" cols="30" rows="10"
+                    placeholder="Write your message here"></textarea>
             </div>
-            <button type="submit">Get In Touch</button>
+            <button class="btn form-submit-btn" type="submit">Get In Touch</button>
         </form>
     </section>
 </body>
