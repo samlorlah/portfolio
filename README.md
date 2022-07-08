@@ -1,6 +1,10 @@
+![screenshot](https://user-images.githubusercontent.com/48407831/178073604-fdb2e129-cf45-4076-871b-39912f651428.PNG)
+
 # Project: My Portfolio
 
-> Welcome to my Portfolio Repo. This is where the main journey at Microverse begins.
+# Getting Started
+
+> Welcome to my `Portfolio` Repo. This is where the main journey at Microverse begins. This projects gives you the opportunity to see how my professional career as a programmer starts.
 
 ## Built With
 
