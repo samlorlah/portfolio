@@ -1,6 +1,10 @@
+[<img src="./asset/images/screenshot.png" />](https://supportukrainenow.org)
+
 # Project: My Portfolio
 
-> Welcome to my Portfolio Repo. This is where the main journey at Microverse begins.
+# Getting Started
+
+> Welcome to my `Portfolio` Repo. This is where the main journey at Microverse begins. This projects gives you the opportunity to see how my professional career as a programmer starts.
 
 ## Built With
 
