@@ -1,4 +1,4 @@
-[<img src="./asset/images/screenshot.png" />](https://supportukrainenow.org)
+![screenshot](https://user-images.githubusercontent.com/48407831/178073604-fdb2e129-cf45-4076-871b-39912f651428.PNG)
 
 # Project: My Portfolio
 
