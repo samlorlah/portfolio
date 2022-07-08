@@ -1259,12 +1259,15 @@ body {
     font-size: 17px;
     line-height: 24px;
     color: #396df2;
+    transition: all 0.5s ease-out;
   }
 
   .btn:hover {
     border: 1px solid #fff;
     background-color: #6070ff;
     color: #fff;
+    padding: 12px 30px;
+    font-size: 15px;
   }
 
   /* ABOUT ME */
