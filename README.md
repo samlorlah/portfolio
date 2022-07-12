@@ -6,6 +6,8 @@
 
 > Welcome to my `Portfolio` Repo. This is where the main journey at Microverse begins. This projects gives you the opportunity to see how my professional career as a programmer starts.
 
+# Website (Online Version)
+>You can view the online version of this webisite using this [link](https://samlorlah.github.io/portfolio/).
 ## Built With
 
 - Major languages - HTML /CSS
