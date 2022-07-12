@@ -221,7 +221,7 @@
     margin: 0 20px;
   }
 
-  .frame > .client > h2 {
+  .frame > .client > h3 {
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -230,8 +230,8 @@
     text-transform: uppercase;
   }
 
-  .frame > .role > h2,
-  .frame > .year > h2 {
+  .frame > .role > h3,
+  .frame > .year > h3 {
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
@@ -372,7 +372,7 @@
   .skill-item-description {
     font-style: normal;
     font-weight: 500;
-    font-size: 15 px;
+    font-size: 15px;
     line-height: 20px;
     color: #253858;
     padding-top: 16px;
@@ -509,6 +509,10 @@ body {
   width: 100%;
   height: 100vh;
   font-family: 'Poppins', sans-serif;
+}
+
+.form-field label {
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -717,7 +721,7 @@ body {
     margin: 0 20px;
   }
 
-  .frame > .client > h2 {
+  .frame > .client > h3 {
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -726,8 +730,8 @@ body {
     text-transform: uppercase;
   }
 
-  .frame > .role > h2,
-  .frame > .year > h2 {
+  .frame > .role > h3,
+  .frame > .year > h3 {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
