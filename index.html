@@ -288,13 +288,16 @@
             coding. I’d love to help with it</p>
         <form id="contact-me-form" action="https://formspree.io/f/mpzbgqyj" method="post">
             <div class="form-field">
-                <input required name="fullname" maxlength="30" type="text" placeholder="Enter your full name">
+                <label hidden for="#fullname">Full Name</label>
+                <input id="fullname" required name="fullname" maxlength="30" type="text" placeholder="Enter your full name">
             </div>
             <div class="form-field">
-                <input required name="email" type="email" placeholder="Enter your email address">
+                <label hidden for="#email">E-mail Address</label>
+                <input id="email" required name="email" type="email" placeholder="Enter your email address">
             </div>
             <div class="form-field">
-                <textarea required name="message" maxlength="500" cols="30" rows="10"
+                <label hidden for="#message">Message</label>
+                <textarea id="message" required name="message" maxlength="500" cols="30" rows="10"
                     placeholder="Write your message here"></textarea>
             </div>
             <button class="btn form-submit-btn" type="submit">Get In Touch</button>
