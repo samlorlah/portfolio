@@ -64,6 +64,19 @@
     list-style: none;
   }
 
+  .tags > li {
+    margin-right: 8px;
+    background: #ebebff;
+    border-radius: 8px;
+    padding: 4px 12px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
   #mobile-menu ul li {
     font-style: normal;
     font-weight: 600;
@@ -291,19 +304,6 @@
     list-style: none;
     display: flex;
     padding: 0;
-  }
-
-  .tags > li {
-    margin-right: 8px;
-    background: #ebebff;
-    border-radius: 8px;
-    padding: 4px 12px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
   }
 
   .action {
