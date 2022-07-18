@@ -3,7 +3,7 @@ const closeMenu = document.getElementById('close-menu-icon');
 const mobileMenu = document.getElementById('mobile-menu');
 const menuList = document.querySelector('.menu-list');
 
-hamburger.addEventListener('click',  () => {
+hamburger.addEventListener('click', () => {
   mobileMenu.style.display = 'block';
 });
 
