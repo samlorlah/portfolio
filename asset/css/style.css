@@ -16,7 +16,7 @@
   }
 
   #logo {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -42,6 +42,17 @@
 
   nav > ul {
     display: none;
+  }
+
+  #mobile-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 106px;
+    padding-left: 28px;
+    background-color: #6070ffe3;
   }
 
   #hamburger {
@@ -83,7 +94,7 @@
     width: 80%;
     height: 150px;
     padding-top: 70px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -96,7 +107,7 @@
   #profile-description > p {
     width: 100%;
     height: 146px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -112,7 +123,7 @@
     height: 24px;
     padding: 0;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -406,13 +417,13 @@
     left: 0;
     background: #6070ff;
     border-radius: 100px 0 0 0;
-    background-image: url('../images/contact-form-shapes-mobile-bg.svg');
+    background-image: url("../images/contact-form-shapes-mobile-bg.svg");
     background-repeat: no-repeat;
     background-position: right;
   }
 
   #contact-me-header {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -426,7 +437,7 @@
     width: 327px;
     height: 90px;
     padding-left: 24px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -454,7 +465,7 @@
     height: 48px;
     border-radius: 8px;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 15px;
   }
 
@@ -477,7 +488,7 @@
     background: #fff;
     border-radius: 8px;
     border: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
@@ -508,7 +519,7 @@ body {
   background: #e5e5e5;
   width: 100%;
   height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-field label {
@@ -541,8 +552,12 @@ body {
     gap: 15px;
   }
 
+  #mobile-menu {
+    display: none;
+  }
+
   #logo {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -556,7 +571,7 @@ body {
 
   nav > ul > li > a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
@@ -588,7 +603,7 @@ body {
   }
 
   #profile-header > h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -601,7 +616,7 @@ body {
   }
 
   #profile-description > p {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -612,7 +627,7 @@ body {
   }
 
   .connect {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -656,7 +671,7 @@ body {
     border-radius: 16px;
   }
 
-  .card:nth-child(2n+2) {
+  .card:nth-child(2n + 2) {
     flex-direction: row-reverse;
   }
 
@@ -978,7 +993,7 @@ body {
     line-height: 24px;
     color: #b3bac5;
     padding-left: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
 
   input {
