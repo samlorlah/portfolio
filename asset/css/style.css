@@ -50,9 +50,27 @@
     left: 0;
     width: 100%;
     min-height: 100vh;
-    padding-top: 106px;
+    padding-top: 60px;
     padding-left: 28px;
     background-color: #6070ffe3;
+  }
+
+  #mobile-menu ul {
+    list-style: none;
+  }
+
+  #mobile-menu ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+
+  #mobile-menu ul li a {
+    color: #fff;
+    text-decoration: none;
   }
 
   #hamburger {
@@ -61,6 +79,11 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+  }
+
+  #close-menu-icon {
+    float: right;
+    margin-right: 20vw;
   }
 
   #header-section {
