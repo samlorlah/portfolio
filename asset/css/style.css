@@ -7,12 +7,14 @@
   }
 
   .header-container {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    padding: 58px 10%;
+    padding: 40px 10%;
     width: 80%;
     align-items: center;
+    z-index: 100;
   }
 
   #logo {
@@ -45,7 +47,8 @@
   }
 
   #mobile-menu {
-    position: absolute;
+    display: none;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -53,6 +56,8 @@
     padding-top: 60px;
     padding-left: 28px;
     background-color: #6070ffe3;
+    backdrop-filter: blur(5px);
+    z-index: 10;
   }
 
   #mobile-menu ul {
@@ -566,7 +571,7 @@ body {
     justify-content: space-between;
     padding: 26px 155px;
     width: 80%;
-    z-index: 1;
+    z-index: 15;
   }
 
   nav > ul {
