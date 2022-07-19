@@ -350,7 +350,7 @@
     padding: 18px;
     justify-content: space-between;
   }
-  
+
   .modal-close {
     position: fixed;
     right: 10%;
@@ -371,7 +371,23 @@
   .modal-header .frame .counter2 {
     margin: 0 5px;
   }
-  
+
+  .destop-img {
+    display: none;
+  }
+
+  .modal-body {
+    padding: 0 16px;
+  }
+
+  .modal-body p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    color: #344563;
+    padding-bottom: 12px;
+  }
+
   /* About Myself */
 
   #myself {
