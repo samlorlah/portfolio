@@ -388,6 +388,26 @@
     padding-bottom: 12px;
   }
 
+  .modal-footer {
+    border-top: 1px solid #ebecf0;
+    margin-top: 20px;
+  }
+
+  .modal-footer .footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .modal-footer .footer-buttons .btn {
+    display: flex;
+    width: 40%;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    justify-content: space-around;
+  }
+
   /* About Myself */
 
   #myself {
