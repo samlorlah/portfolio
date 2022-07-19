@@ -322,6 +322,56 @@
     color: #396df2;
   }
 
+  /* Modal */
+
+  .popup {
+    position: fixed;
+    background-color: #c1c7d0b0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    backdrop-filter: blur(5px);
+  }
+
+  .modal {
+    position: absolute;
+    background-color: #fff;
+    width: 90%;
+    left: 5%;
+    top: 5%;
+    height: 90vh;
+    border-radius: 16px;
+    overflow-y: scroll;
+  }
+
+  .modal-header {
+    display: flex;
+    padding: 18px;
+    justify-content: space-between;
+  }
+  
+  .modal-close {
+    position: fixed;
+    right: 10%;
+  }
+
+  .modal-header h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .modal-header .frame {
+    padding: 10px 0 0 0;
+  }
+
+  .modal-header .frame .counter1,
+  .modal-header .frame .counter2 {
+    margin: 0 5px;
+  }
+  
   /* About Myself */
 
   #myself {
