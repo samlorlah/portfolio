@@ -408,6 +408,10 @@
     justify-content: space-around;
   }
 
+  .modal-buttons {
+    display: none;
+  }
+
   /* About Myself */
 
   #myself {
