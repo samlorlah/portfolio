@@ -21,7 +21,7 @@ menuList.addEventListener('click', () => {
 for (let i = 0; i < modalClose.length; i += 1) {
   modalClose[i].addEventListener('click', () => {
     for (let j = 0; j < modalDialog.length; j += 1) {
-      if (modalDialog[j].style.display == 'block') {
+      if (modalDialog[j].style.display === 'block') {
         modalDialog[j].style.display = 'none';
       }
     }
