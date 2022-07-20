@@ -37,12 +37,8 @@ for (let i = 0; i < modals.length; i += 1) {
 }
 
 const validateEmail = (email) => {
-  if (email !== email.toLowerCase())
-  {
-    return false
-  } else {
-    return true;
-  }
+  if (email !== email.toLowerCase()) return false;
+  return true;
 };
 
 contactForm.addEventListener('submit', (e) => {
