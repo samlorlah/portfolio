@@ -5,6 +5,8 @@ const menuList = document.querySelector('.menu-list');
 const modalClose = document.querySelectorAll('.modal-close');
 const modalDialog = document.querySelectorAll('.popup');
 const modals = document.querySelectorAll('.action-btn');
+const contactForm = document.getElementById('contact-me-form');
+const contactFormSubmitBtn = document.getElementById('contact-form-submit-btn');
 
 hamburger.addEventListener('click', () => {
   mobileMenu.style.display = 'block';
@@ -34,3 +36,7 @@ for (let i = 0; i < modals.length; i += 1) {
     modal.style.display = 'block';
   });
 }
+
+const validateEmail = (email) => {
+  return email !== email.toLowerCase() ? false : true;
+};

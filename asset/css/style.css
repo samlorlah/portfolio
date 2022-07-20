@@ -630,7 +630,6 @@
   }
 }
 
-/* Desktop Version */
 * {
   padding: 0;
   margin: 0;
@@ -646,6 +645,15 @@ body {
 .form-field label {
   display: none;
 }
+
+#display-msg {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+/* Desktop Version */
 
 @media (min-width: 768px) {
   header {
