@@ -40,3 +40,16 @@ for (let i = 0; i < modals.length; i += 1) {
 const validateEmail = (email) => {
   return email !== email.toLowerCase() ? false : true;
 };
+
+contactForm.addEventListener('submit', (e) => {
+  const EMAIL_INVALID = 'Your Email should be in lower case only. Please try again!';
+  const displayMsg = document.getElementById('display-msg');
+  e.preventDefault();
+  if(! validateEmail(contactForm.elements.email.value.trim())){
+    displayMsg.innerText = EMAIL_INVALID;
+    displayMsg.style.color = '#ff0000';
+  }else {
+    displayMsg.innerText = '';
+    contactForm.submit();
+  }
+});
