@@ -5,6 +5,7 @@ const menuList = document.querySelector('.menu-list');
 const modalClose = document.querySelectorAll('.modal-close');
 const modalDialog = document.querySelectorAll('.popup');
 const modals = document.querySelectorAll('.action-btn');
+const contactForm = document.getElementById('contact-me-form');
 
 hamburger.addEventListener('click', () => {
   mobileMenu.style.display = 'block';
@@ -34,3 +35,21 @@ for (let i = 0; i < modals.length; i += 1) {
     modal.style.display = 'block';
   });
 }
+
+const validateEmail = (email) => {
+  if (email !== email.toLowerCase()) return false;
+  return true;
+};
+
+contactForm.addEventListener('submit', (e) => {
+  const EMAIL_INVALID = 'Your Email should be in lower case only. Please try again!';
+  const displayMsg = document.getElementById('display-msg');
+  e.preventDefault();
+  if (!validateEmail(contactForm.elements.email.value.trim())) {
+    displayMsg.innerText = EMAIL_INVALID;
+    displayMsg.style.color = '#ff0000';
+  } else {
+    displayMsg.innerText = '';
+    contactForm.submit();
+  }
+});
