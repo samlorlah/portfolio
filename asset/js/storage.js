@@ -14,12 +14,12 @@ let formStorageData = JSON.parse(getData(FORM_KEY));
 
 if (!getData(FORM_KEY)) {
   setData(FORM_KEY, formData);
-} else {
-  if (formStorageData) {
-    fullname.value = formStorageData.name;
-    mail.value = formStorageData.email;
-    message.value = formStorageData.message;
-  }
+}
+
+if (formStorageData) {
+  fullname.value = formStorageData.name;
+  mail.value = formStorageData.email;
+  message.value = formStorageData.message;
 }
 
 // ADD EVENT LISTENTER TO INPUT AND TEXTAREA
