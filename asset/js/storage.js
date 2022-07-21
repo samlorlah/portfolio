@@ -21,3 +21,22 @@ if (!getData(FORM_KEY)) {
         message.value = formStorageData.message;
     }
 }
+
+//ADD EVENT LISTENTER TO INPUT AND TEXTAREA
+fullname.addEventListener('keyup', () => {
+    formStorageData = JSON.parse(getData(FORM_KEY));
+    formStorageData.name = fullname.value;
+    setData(FORM_KEY, formStorageData);
+});
+
+mail.addEventListener('keyup', () => {
+    formStorageData = JSON.parse(getData(FORM_KEY));
+    formStorageData.email = mail.value;
+    setData(FORM_KEY, formStorageData);
+});
+
+message.addEventListener('keyup', () => {
+    formStorageData = JSON.parse(getData(FORM_KEY));
+    formStorageData.message = message.value;
+    setData(FORM_KEY, formStorageData);
+});
