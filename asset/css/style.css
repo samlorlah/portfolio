@@ -1216,6 +1216,7 @@ body {
     border-radius: 2px;
     margin-bottom: 27px;
     width: 100%;
+    padding: 15px;
   }
 
   input::placeholder,
@@ -1231,10 +1232,12 @@ body {
 
   input {
     height: 48px;
+    padding: 15px;
   }
 
   textarea {
     height: 170px;
+    padding: 15px;
   }
 
   .form-submit-btn {
