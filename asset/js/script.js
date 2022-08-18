@@ -50,6 +50,7 @@ contactForm.addEventListener('submit', (e) => {
     displayMsg.style.color = '#ff0000';
   } else {
     displayMsg.innerText = '';
+    localStorage.removeItem('form-data');
     contactForm.submit();
   }
 });
