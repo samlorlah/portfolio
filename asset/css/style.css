@@ -235,7 +235,7 @@
   #snapshot3 {
     width: 100%;
     height: 220px;
-    background: url(../images/snapshot3.png);
+    background: url(../images/projects/bookstore/mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -245,7 +245,7 @@
   #snapshot4 {
     width: 100%;
     height: 220px;
-    background: url(../images/snapshot4.png);
+    background: url(../images/projects/crypto/mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -839,7 +839,7 @@ body {
   }
 
   #snapshot3 {
-    background-image: url(../images/snapshot3-desktop.svg);
+    background-image: url(../images/projects/bookstore/desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -848,7 +848,7 @@ body {
   }
 
   #snapshot4 {
-    background-image: url(../images/snapshot4-desktop.svg);
+    background-image: url(../images/projects/crypto/desktop.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
