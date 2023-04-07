@@ -720,7 +720,6 @@ body {
 
   .container {
     width: 100%;
-    padding-top: 100px;
     height: 900px;
     background-image: url(../images/background-desktop.svg);
     background-repeat: no-repeat;
